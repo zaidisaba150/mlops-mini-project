@@ -1,0 +1,1 @@
+2025-04-12 20:29:51,763 - model_evaluation - ERROR - Failed to complete the model evaluation process: [Errno 2] No such file or directory: 'reports/model_info.json'
