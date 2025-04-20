@@ -54,7 +54,7 @@ jobs:
       - name : docker image
         if : success()
         run : |
-          docker build - t ${{secrets.DOCKERHUB_USERNAME}}/mini-project:latest .
+          docker build - t sabazaidi/mini-project:latest .
 
       - name : docker image push
         if : success()
